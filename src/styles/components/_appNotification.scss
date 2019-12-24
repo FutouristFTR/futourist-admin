@@ -1,0 +1,31 @@
+.appNotification {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  position: fixed;
+  z-index: 10000;
+  top: 30px;
+  left: 50%; /* Center the snackbar */
+  min-width: 250px;
+  margin-left: -125px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px; /* Padding */
+  box-shadow: 5px 5px 10px #666;
+}
+
+.appNotification.show {
+   visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar. */
+   -webkit-animation: fadein 0.5s;
+   animation: fadein 0.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}

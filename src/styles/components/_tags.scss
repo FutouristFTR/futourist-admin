@@ -1,0 +1,42 @@
+.tagsContainer {
+  border: 1px solid #ddd;
+  padding: 17px 15px;
+  border-radius: 5px;
+  cursor: text;
+  margin: 0;
+  li {
+    position: relative;
+  }
+}
+.tagItems {
+  display: inline-block;
+  padding: 2px 5px;
+  color: white;
+  background-color: #2a4153;
+  border-radius: 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 50px;
+  text-align: center;
+}
+.tagInput {
+  outline: none;
+  border: none;
+  font-size: 14px;
+}
+.tagsDeleteIcon {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 10px;
+  padding-left: 85px;
+}
+
+.tagsDeleteIcon:hover {
+  color: red;
+}
+
+.tagStyle {
+  padding: 0 15px 0 5px;
+}

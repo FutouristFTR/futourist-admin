@@ -1,0 +1,63 @@
+.tab {
+  border: none;
+  background-color: #fff;
+  // width: 100px;
+  // height: 300px;
+  border-right: 1px solid #ddd;
+  padding: 0;
+  // padding-left: 10px;
+  button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 25px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 1px;
+  }
+  button:hover {
+    background-color: #eee;
+  }
+  button.active {
+    background-color: #fff;
+    border-right: 1px solid #fff;
+  }
+}
+
+.tabcontent {
+  // border: 1px solid #DDD;
+  border-left: none;
+  background-color: #fff;
+  border-left: none;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  // height: 300px;
+}
+
+.tabcontainer {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: visible;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  .row {
+    max-width: 100%;
+  }
+  // padding: 20px;
+}
+
+.tabFooter {
+  text-align: right;
+  position: relative;
+  bottom: 0;
+  right: 0;
+}

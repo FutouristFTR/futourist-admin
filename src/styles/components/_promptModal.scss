@@ -1,0 +1,39 @@
+.promptModalContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: hidden !important;
+  top: 0;
+  left: 0;
+  z-index: 5000 !important;
+  a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+.promptModalWindow {
+  background-color: #fff;
+  padding: 30px 20px;
+  width: 300px;
+  text-align: center;
+  color: $primary;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+  overflow: hidden !important;
+  border-radius: 2px;
+  p {
+    font-weight: lighter;
+    color: #000;
+    margin-top: 10px;
+  }
+  button {
+    margin: 0 20px;
+  }
+}

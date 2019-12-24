@@ -1,0 +1,269 @@
+/*!
+ * Futourist components styling with Sass
+ * Remember to install and run Gulp in order to compile sass to css
+ */
+.bold {
+  font-weight: 600; }
+
+.header {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative; }
+  .header .logo {
+    width: 40px; }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #000000b0, rgba(0, 0, 0, 0.11) 88%, rgba(0, 0, 0, 0.1)); }
+
+.titleContainer {
+  margin-top: 200px; }
+  .titleContainer h1 {
+    color: #fff;
+    font-family: "Montserrat";
+    display: inline-block; }
+  .titleContainer p {
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 14px; }
+
+.navigationContainer {
+  padding-top: 30px; }
+
+.categoryContainer {
+  width: 500px;
+  margin: 50px auto; }
+  .categoryContainer h2 {
+    color: #fff;
+    font-weight: normal;
+    display: inline-block; }
+
+.iconList {
+  list-style: none;
+  display: inline-block; }
+  .iconList li {
+    display: inline-block; }
+  .iconList a {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 300px;
+    margin: 0 10px;
+    display: block;
+    padding: 7px 0 0 1px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.51); }
+  .iconList a:hover {
+    opacity: 0.8; }
+  .iconList img {
+    width: 20px; }
+
+.searchContainer {
+  width: 650px;
+  margin: 0 auto; }
+
+.searchInput {
+  width: 650px;
+  height: 50px;
+  border-radius: 200px;
+  background-color: #fff;
+  box-shadow: 0 10px 58px 0 rgba(41, 135, 162, 0.1);
+  padding-left: 30px;
+  color: 0 10px 58px 0 rgba(41, 135, 162, 0.1);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300; }
+
+.searchButton {
+  width: 140px;
+  height: 50px;
+  border-radius: 200px;
+  background-image: linear-gradient(to bottom, #2ac7d3, #71afe5);
+  box-shadow: 0 35px 50px 0 rgba(41, 135, 162, 0.12);
+  color: #fff;
+  border: none;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase; }
+
+.formContainer {
+  position: relative;
+  display: inline-block; }
+
+.mainLink {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 300;
+  margin-right: 20px; }
+
+.collectionTitle {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  margin: 35px 0; }
+
+.videoRollList {
+  list-style: none;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row-reverse; }
+  .videoRollList li {
+    display: inline-block;
+    margin-left: -12px; }
+  .videoRollList img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 100px; }
+
+.singlePlaceCover {
+  margin-bottom: 30px; }
+
+.starRating {
+  margin-top: 10px; }
+
+.singleReviewImage {
+  border-radius: 20px;
+  box-shadow: 0 7px 43px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.7) 14%, rgba(0, 0, 0, 0.41) 65%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); }
+
+.recentReviewsContainer {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  margin-bottom: 150px; }
+
+.singleReviewContainer {
+  height: 350px;
+  width: auto;
+  border-radius: 10px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 7px 43px 0 rgba(0, 0, 0, 0.2); }
+
+.singleReviewContentContainer {
+  z-index: 10; }
+
+.placeRatingList ul {
+  display: inline-block; }
+
+.placeRatingList li {
+  display: inline-block; }
+
+.singleReviewOverlay img {
+  border-radius: 10px;
+  height: 350px;
+  width: 100%; }
+
+.singleReviewLink {
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+  display: inline-block;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 50; }
+  .singleReviewLink a {
+    text-decoration: none; }
+
+.singleReviewBottomContainer {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 11px; }
+  .singleReviewBottomContainer a {
+    text-decoration: none; }
+  .singleReviewBottomContainer h5 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px; }
+  .singleReviewBottomContainer p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px; }
+
+.singleReviewCaptionContainer {
+  margin-bottom: 15px; }
+
+.userAvatarContainer {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 60; }
+  .userAvatarContainer a {
+    display: inline-block; }
+
+.userAvatarInfo {
+  position: relative;
+  right: 0; }
+
+.userAvatarImage {
+  width: 30px;
+  height: 30px;
+  border: solid 1px white;
+  border-radius: 100px;
+  margin-right: 10px; }
+
+.userAvatarName {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  margin-right: 4px; }
+
+.userAvatarTime {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300; }
+
+.footerSection {
+  padding-top: 20px;
+  background-color: #eee;
+  position: relative; }
+
+footer {
+  text-align: center;
+  padding-top: 40px; }
+  footer ul {
+    list-style-type: none !important; }
+  footer a {
+    color: #000;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center; }
+
+.brand-text {
+  position: absolute;
+  bottom: 3px; }
+
+.footer-social {
+  font-size: 0.875rem; }
+  .footer-social li {
+    display: inline; }
+  .footer-social a {
+    font-size: 16px;
+    margin-right: 25px; }
+
+.headerItem {
+  margin-bottom: 5px;
+  font-weight: 500; }

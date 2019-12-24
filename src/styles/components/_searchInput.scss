@@ -1,0 +1,29 @@
+.searchInputContainer {
+  margin: 20px 0;
+
+  .inputContainer {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    width: 450px;
+    border-radius: 4px;
+  }
+
+  i {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: #ccc;
+  }
+
+  input {
+    display: block;
+    background: none !important;
+    border: none !important;
+    padding: none !important;
+    height: 100%;
+    font-size: 0.9em;
+    padding-left: 40px;
+  }
+}

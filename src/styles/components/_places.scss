@@ -1,0 +1,37 @@
+.placesListContainer {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+/* .placesTable {
+  td {
+    padding: 0 2px;
+    font-size: 0.8em;
+  }
+  th {
+    padding: 2px 10px;
+    font-size: 1em;
+  }
+  text-align: center;
+  font-size: 0.9em;
+  width: 1600px;
+// } */
+
+.placeName {
+  font-weight: bold;
+}
+
+.placeImage {
+  max-width: 100%;
+}
+
+.actions-list {
+  margin: 0 !important;
+  li {
+    margin-right: 2px;
+  }
+}
+
+.placeDisabled {
+  background-color: #ffe7e7;
+}

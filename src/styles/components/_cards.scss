@@ -1,0 +1,79 @@
+//SimpleCard
+.mainCard {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 10px 58px 0 rgba(41, 135, 162, 0.1);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.cardBg {
+  word-break: break-all;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 10px 58px 0 rgba(41, 135, 162, 0.1);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: $secondary;
+}
+
+.cardText {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: $secondary;
+}
+
+.cardLink {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(42, 199, 211);
+  text-decoration: underline;
+}
+
+.collectionListCard {
+  ol {
+    margin-bottom: 0;
+  }
+}
+//ChartCard
+
+//SplitCard
+
+//TipReportCard
+.tipReportCard {
+  margin-bottom: 25px;
+  background-color: $white;
+  border-radius: 5px;
+  box-shadow: 0 10px 58px 0 rgba(41, 135, 162, 0.1);
+  padding: 15px 20px;
+  .iconContainer {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .cardIcon {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+  }
+  .cardTitle {
+    text-align: center;
+  }
+  .cardText {
+    text-align: center;
+  }
+  .cardLink {
+    text-align: center;
+    display: block;
+  }
+}

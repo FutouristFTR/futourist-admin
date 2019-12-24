@@ -1,0 +1,204 @@
+.generalInfoContainer {
+  .row {
+    margin: 20px 0;
+  }
+  span {
+    font-weight: 300;
+  }
+}
+
+.placeNameContainer {
+  padding: 10px 0;
+}
+
+.selectorTitle {
+  margin: auto 0;
+}
+
+.categorySelectContainer {
+  input {
+    margin: 0;
+    padding: 0;
+  }
+  .prefix__control {
+    border: 1px solid #ddd;
+  }
+  .prefix__input {
+    margin: 0;
+    padding: 0;
+  }
+  .prefix__value-container {
+    background-color: $white;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .prefix__multi-value {
+    background-color: transparent;
+    position: relative;
+    margin: 0;
+  }
+  .prefix__multi-value__label {
+    background-color: $secondary;
+    color: #fff;
+    padding: 2px 25px 2px 15px;
+    margin-right: 5px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .prefix__multi-value__remove {
+    position: absolute;
+    color: $white;
+    right: 5px;
+    top: 6px;
+    cursor: pointer;
+    padding-left: 85px;
+  }
+  .prefix__multi-value__remove:hover {
+    background-color: transparent;
+  }
+}
+
+.descriptionInputContainer {
+  padding-top: 10px;
+}
+
+.descriptionInput {
+  width: 100%;
+  height: 110px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  font-weight: 300;
+}
+
+.coverPhoto {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.coverPhotoButton {
+  position: absolute;
+  right: 60px;
+  top: 240px;
+  padding: 10px 20px;
+  background-color: white;
+  color: $secondary;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.coverPhotoButton:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.coverPhotoButton:focus {
+  outline: none;
+}
+
+.dropzoneContainer {
+  width: 100%;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 5px;
+  box-shadow: 0 10px 58px 0 rgba(41, 135, 162, 0.1);
+}
+
+.dropzoneStyle {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  border: dashed 2px #d0d8de;
+  height: 150px;
+  display: table;
+}
+
+.dropzoneTextContainer {
+  margin: auto 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dropzoneTextStyle {
+  font-size: 16px;
+  margin: 0;
+  color: #7c91a1;
+  font-weight: 300;
+}
+
+.galleryTitle {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 25px;
+  h4 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #7c91a1;
+    margin: 0;
+  }
+}
+
+.uploadIndicatorBox {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.imgInPhotoGallery {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  // height: 20%;
+}
+.imgInPhotoGallery:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.mainPhotoUlIndicator {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 200px;
+  padding: 10px;
+  padding-top: 55px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inputStyle {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.locationTitle {
+  color: #7c91a1;
+}
+
+.ReactModal__Overlay {
+  z-index: 1100;
+}
+.editModalDialog {
+  max-width: 1160px;
+}
+
+.editModalBody {
+  padding: 0;
+}
+
+.deletePhotoPrompt {
+  position: absolute;
+  top: 100px;
+  margin: 0 auto;
+  z-index: 50000 !important;
+}
